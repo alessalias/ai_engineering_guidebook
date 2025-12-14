@@ -1,0 +1,23 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mathematic.vscode-pdf",
+                "ms-python.autopep8",
+                "ms-python.python",
+                "plibither8.remove-comments"
+            ],
+            "settings": {
+                "explorer.compactFolders": false,
+                "editor.minimap.enabled": false,
+                "editor.quickSuggestionsDelay": 3000,
+                "emmet.showExpandedAbbreviation": "never",
+                "files.trimFinalNewlines": false,
+                "files.trimTrailingWhitespace": true,
+                "workbench.editor.enablePreview": false,
+                "workbench.editor.closeOnFileDelete": true,
+                "workbench.preferredLightColorTheme": "GitHub Dark Default"
+            }
+        }
+    }
+}
