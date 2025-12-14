@@ -12,11 +12,9 @@ The focus is **not** on clever prompts, but on **system design**.
 
 ## Philosophy
 
-LLMs are stateless generators.
+With this project i wanted to have a repository where i could log, stack and show the ever evolving understanding that i have of LLMs from a practical standpoint. 
+This is a living-breathing project, meant to go on as far as my knowledge on the matter is, which is sadly not that far as of right now. I pledge to polish, maintain and eventually finish this project of mine. I welcome the reader on this journey of learning we've undertaken. May it be used for the good. 
 
-Everything that matters — memory, safety, retrieval, UX, cost, correctness —
-lives in the application layer.  
-This repository focuses on that layer.
 
 ---
 
