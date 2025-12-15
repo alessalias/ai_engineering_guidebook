@@ -20,10 +20,9 @@ This is a living-breathing project, meant to go on as far as my knowledge on the
 
 ## Structure
 
-- `chapters/` — Incremental, self-contained learning units (0 → 100)
-- `providers/` — Provider-specific implementations (OpenAI, Anthropic, etc.)
-- `utils/` — Shared utilities (chunking, similarity, guards, memory)
-- `data/` — Sample datasets used across chapters
+- `demo/` — Provider-specific implementations structured in icremental, self-contained learning units 
+- `data/transcipts` — Sample dataset. The contents are taken from CS50x used for embeddings and rag examples 
+- `utils/` — Shared utilities
 
 Each chapter includes:
 - a conceptual README
@@ -32,32 +31,10 @@ Each chapter includes:
 
 ---
 
-## Chapter Roadmap
-
-1. SDK & Environment Basics
-2. Single-Turn Calls
-3. Interactive CLI
-4. Prompt Hierarchy (Developer vs User)
-5. Multi-Turn Memory
-6. Streaming Responses
-7. Embeddings
-8. Semantic Retrieval
-9. RAG — Basic
-10. RAG — Advanced
-11. Memory Strategies
-12. Evaluation & Grounding
-13. Safety & Guardrails
-14. Cost & Token Control
-15. Multi-Provider Abstractions
-
----
 
 ## Credits & Inspiration
 
-This project is inspired by the CS50 AI Workshop and similar educational material.
-Original examples were used strictly as learning references and have been
-reimplemented, reorganized, and extended.
-
+This project is inspired by the CS50 AI Workshop and similar educational material and aims to build on top of that.
 ---
 
 ## Status
