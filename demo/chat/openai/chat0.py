@@ -1,6 +1,6 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
+import os # Imports Python’s built-in os module, which allows interaction with the operating system, needed to read .env variables (api key)
+from dotenv import load_dotenv 
+load_dotenv() # This function loads the .env variables into the process enviroment
 
 # Import the OpenAI library to interact with OpenAI's API
 from openai import OpenAI
