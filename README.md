@@ -1,4 +1,7 @@
 # Practical LLM Engineering — From Zero to Production
+![status](https://img.shields.io/badge/status-work_in_progress-lightgrey)
+![focus](https://img.shields.io/badge/focus-system_design-lightgrey)
+![scope](https://img.shields.io/badge/scope-practical_llm_engineering-lightgrey)
 
 A living, hands-on guide to building systems powered by Large Language Models (LLMs).
 
