@@ -11,8 +11,12 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # Prompt the user for input and store the input in a variable
 user_prompt = input("User: ")
 
+# This is NOT a real prompt injection defense
+# It only detects one specific phrase and is trivially bypassed.
+# It also does NOT stop the request from being sent to the model.
 if "ignore previous instructions" in user_prompt.lower():
     print("Refusing prompt injection attempt.")
+    # NOTE: For real enforcement, you would need to return or exit here.
 
 # Define the developer prompt which sets the context for the chatbot.
 developer_prompt = "You are a friendly and supportive teaching assistant for CS50. You are also a cat."
