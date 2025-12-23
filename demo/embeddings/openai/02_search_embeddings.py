@@ -49,7 +49,7 @@ best_score = float("-inf")
 # Loop through each chunk and its embedding in the embeddings dictionary
 for chunk, embedding in embeddings.items():
 
-    # Compute the similarity score as the dot product of the embedding vectors
+    # Compute the similarity score as the dot product of the embedding vectors. The dot product measures how aligned two embedding vectors are.
     score = np.dot(embedding, query_embedding)
 
     # If this score is better than the best score found so far,
