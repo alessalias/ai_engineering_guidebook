@@ -12,7 +12,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # Define a function to get the embedding of a text using a specified model
 def get_embedding(text, model="text-embedding-3-small"):
 
-    # Replace newline characters with spaces in the text
+    # Replace newline characters with spaces in the text. This removes layout noise improving similarity consistency
     text = text.replace("\n", " ")
 
     # Use the OpenAI client to create embeddings for the text using the specified model
@@ -41,7 +41,7 @@ with open(FILE_PATH, "r") as f:
         # Get the embedding for the current chunk and store it in the 'embeddings' dictionary
         embeddings[chunk] = get_embedding(chunk)
 
-    # Open a new file 'embeddings.jsonl' in write mode
+    # Open a new file 'embeddings.jsonl' in write mode. json lines it as a text file where each line contains a single, valid JSON object. each line is independent, it’s perfect for processing large datasets one object at a time without loading everything into memory
     print("Writing embeddings to file...")
     with open("embeddings.jsonl", "w") as f:
 
