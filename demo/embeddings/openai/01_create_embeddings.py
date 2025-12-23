@@ -28,9 +28,10 @@ with open(FILE_PATH, "r") as f:
     data = f.read()
 
     # Split the data into chunks of 500 characters and store them in a list called 'chunks'
+    # Chunking prevents loss of semantic resolution and avoids context dilution. Chunk size is a trade-off between semantic coherence and retrieval precision
     chunks = [data[i:i+500] for i in range(0, len(data), 500)]
 
-    # Initialize a dictionary to hold the mapping of text chunks to their embeddings
+    # Initialize a dictionary to hold the mapping of text chunks to their embeddings. Embeddings are stored so they can be reused efficiently, avoiding repeated API calls and reducing latency and cost
     embeddings = {}
 
     # Loop through each chunk in the chunks list
