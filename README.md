@@ -34,6 +34,8 @@ Each chapter includes:
 
 ---
 
+This repository implements a minimal retrieval-augmented generation pipeline from scratch: offline document embedding, semantic retrieval at query time, and grounded response generation. The focus is on understanding the mechanics and failure modes rather than relying on abstractions.
+
 
 ## Credits & Inspiration
 
