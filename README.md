@@ -26,6 +26,7 @@ This is a living-breathing project, meant to go on as far as my knowledge on the
 - `data/transcipts` — Sample dataset. The contents are taken from CS50x used for embeddings and rag
 - `demo/` — Provider-specific implementations structured in icremental, self-contained learning units 
 - `demo/embeddings/openai` — This repository implements a minimal retrieval-augmented generation pipeline from scratch: offline document embedding, semantic retrieval at query time, and grounded response generation. The focus is on understanding the mechanics and failure modes rather than relying on abstractions.
+- `demo/chat` — This repository displays qualitative jumps from calling the model's API to get a stream out output from the model and how to get multi-turn memory
 - `utils/` — Shared utilities
 
 ---
