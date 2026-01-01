@@ -40,4 +40,4 @@ This project is inspired by the CS50 AI Workshop and similar educational materia
 
 ## Status
 
-Work in progress — chapters are added and refined incrementally.
+Work in progress — files are added and refined incrementally.
